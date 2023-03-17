@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+
+     <!--=============Remix icon============-->
+     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    
+    <!--=============== Css =============-->  
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/skins/color-1.css">
+
+    <!--=============== Skin colors =============-->
+    <link 
+        rel="stylesheet" 
+        href="assets/css/skins/color-1.css" 
+        class="alternate-style" 
+        title="color-1" 
+        disabled
+    />
+    <link rel="stylesheet" 
+        href="assets/css/skins/color-2.css" 
+        class="alternate-style" 
+        title="color-2" 
+        disabled
+    />
+</head>
+<body>
+    
+    <!-- ======== Header ========== -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="index.html" class="nav__link" >Home</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-fill"></i>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-fill"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ======== Blog Detais ========== -->
+    <div class="blog__header"></div>
+
+    <section class="container">
+        <div class="blog__details">
+            <a href="index.html" class="back__to-home text-xs">
+                <i class="ri-arrow-left-line"> Back</i>
+            </a>
+            <h3 class="post__details-title text-lg">React Components</h3>
+            <p class="post__details-date text-sm">March, 10 , 2023</p>
+            <p class="post__details text-lg">React is a JavaScript library for building user interfaces, and one of its key features is its component-based architecture. A component is a modular, reusable piece of code that represents a specific part of a user interface. Components can be thought of as building blocks that can be combined together to create more complex UIs.
+                In this blog post, we'll take a closer look at React components and their different types.
+            </p>
+            <p class="post__details text-lg">ust click the icons you want from remixicon.com, and then you can download the icons in SVG or PNG format.
+                Designers can click the Copy SVG button and then press ⌘+V or Ctrl+V to paste the vector graphic into your design tool directly, easy and simple.
+            </p>
+            <figure>
+                <img src="assets/img/proj-flow.png" alt="">
+                <figcaption class="text-sm">
+                    This is how i organize my HTML, CSS and PHP files.
+                </figcaption>
+            </figure>
+
+            <p class="post__details text-lg">
+                SMS based Status: You can also track through the SMS service. Article type ' POST track <. 13 digit article number >. ' to track the status and send SMS on 166 or 51969. Alternatively, you can browse the government website and find the consignment status, Www.indiapost.gov.in.
+            </p>
+
+            <div class="post__social-share">
+                <span class="post__share text-lg"> Share this post :</span>
+                <div class="posr__social-links">
+                    <a href="" class="post__share-link">
+                        <i class="ri-linkedin-box-fill"></i>
+                    </a>
+                    <a href="" class="post__share-link">
+                        <i class="ri-facebook-box-fill"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =============== Contact ================== -->
+    <section class="contact section" id="contact">
+        <div class="contact__content container">
+            <h2 class="section__title"> Get in touch_</h2>
+
+            <div class="contact__container grid">
+                <div class="contact__info">
+                    <dl class="contact__list">
+                        <dt>Phone :</dt>
+                        <dd>8778 45 70 90</dd>
+                        <dt>Email : </dt>
+                        <dd>ajselva04@gmail.com</dd>                          
+                    </dl>
+
+                    <ul class="contact__socials">
+                        <li>
+                            <a href="https://github.com/ASelvanth" 
+                            class="contact__social-link">Githhub</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQHKiBU1zmFnsgAAAYbe8mz4jywQurcVhMo26K3_dCZaHVWneqY5B8RjI4nqpNvypyA4MRoFdhtTmnnEgUvTuR5YKiYAh7-ngqk2wZRf6hqEUaxCCDla-N1-bwEdsdHsYItmW40=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fselvanth-arulsamy-44a191219" 
+                            class="contact__social-link">Linkedin</a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/aj_selva04/?igshid=ZDdkNTZiNTM=" 
+                            class="contact__social-link"> Instagram</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/people/AJ-Selvanth/pfbid02TRzJ3fnHtz9WWSgaMLJPsQjjebL4RSHLkbZksXVF4dBeWRJTEkyXddSZNRPJMTR8l/?mibextid=ZbWKwL"
+                             class="contact__social-link">Facebook</a>
+                        </li>                    
+                     </ul>
+                </div>
+
+                <div class="contact__form">
+                    <p class="contact__form-title">Or just write me a letter here_</p>
+                
+                    <form action="" id="contact-form">
+                        <div class="contact__input-div">
+                            <input type="text" name="name" placeholder="Your name" class="contact__input" id="contact-name"/>
+                        </div>
+                        <div class="contact__input-div">
+                            <input type="email" name="email" placeholder="Your e-mail" class="contact__input" id="contact-email"/>
+                        </div>
+                        <div class="contact__input-div">
+                            <textarea placeholder="Type the message here" name="message" class="contact__input textarea"                                      
+                             id="message" cols="30" rows="10">
+                            </textarea>
+                        </div>
+
+                        <p class="contact__message text-sm" id="contact-message"></p>
+                        <button type="submit" class="button contact__button"> SEND </button>
+                    </form>
+                    <p class="footer__copy">
+                        &copy; 2023 Selvanth A. All rights reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =================== Style Switcher ===================== -->
+    <div class="style__switcher">
+        <div class="style__switcher-toggler">
+            <i class="ri-settings-4-fill"></i>
+        </div>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+        </div>
+    </div>
+
+    <!--================= Email Js  ==============-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <!--================= JS ========================-->
+    <script src="assets/js/common.js"></script>
+
+</body>
+</html>
