@@ -318,22 +318,22 @@ input{
 
 /* ===============Services================== */
 .services__container {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.875rem;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.678rem;
 }
 
 .services__item{
     border: 1px solid var(--border-color);
-    padding: 2.5rem 1.25rem 1.875rem ;
+    padding: 1rem 1.25rem 1.875rem ;
     text-align: center;
 }
 .icon__box {
     border: 1px solid var(--border-color);
-    width: 82px;
-    height: 82px;
+    width: 90px;
+    height: 90px;
     border-radius: 50%;    
     margin: 0 auto;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1rem;
     position: relative;
     display: flex;
 }
@@ -382,14 +382,23 @@ input{
 .resume__container {
     grid-template-columns: repeat(2 ,1fr);
     column-gap: 3.75rem;
+    padding-bottom: 2rem;
 }
-
 .resume__title {
     color : var(--text-color-alt);
+    letter-spacing: 0.4em; 
+}
+.resume__title_int {
+    color : var(--text-color-alt);
     letter-spacing: 0.4em;
-    margin-bottom: 2.8em;    
+    margin-top: 0.5rem;
 }
 .resume__item{
+    border-left : 2px solid var(--primary-color);
+    padding-left: 1.6rem;
+    position: relative;
+}
+.resume__item_int { 
     border-left : 2px solid var(--primary-color);
     padding-left: 1.6rem;
     position: relative;
